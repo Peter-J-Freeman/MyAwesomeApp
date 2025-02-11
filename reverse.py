@@ -5,4 +5,3 @@ def reverse_string_slicing(strand):
 strand = "atgcatgc"
 generate = reverse_string_slicing(strand)
 print(generate)
-
