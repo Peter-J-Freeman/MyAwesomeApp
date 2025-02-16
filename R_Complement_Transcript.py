@@ -30,16 +30,16 @@ def complement_seq(strand):
     return complement
 
 
-def reverse_string_slicing(cdna_to_reverse):
-    return cdna_to_reverse[::-1]
+def reverse_string_slicing(cseq_to_reverse):
+    return cseq_to_reverse[::-1]
 
 
-def reverse_complement_dna(rcdna):
-    return complement_seq(reverse_string_slicing(rcdna))
+def reverse_complement_dna(rcseq):
+    return complement_seq(reverse_string_slicing(rcseq))
 
 
-def print_rcdna(rcdna):
-    result = reverse_complement_dna(rcdna)
+def print_rcdna(rcseq):
+    result = reverse_complement_dna(rcseq)
     print("your reversed cDNA strand is:", result)
 
 
